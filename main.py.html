@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>main.py</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cc7832;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #6a8759;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+main.py</font>
+</center></td></tr></table>
+<pre><span class="s0">import </span><span class="s1">random</span>
+<span class="s1">user_input =input(</span><span class="s2">&quot;if you are ready choose : rock , paper , scissors </span><span class="s0">\n </span><span class="s2">&quot;</span><span class="s1">)</span>
+<span class="s1">computer_input = random.choice([</span><span class="s2">'rock'</span><span class="s0">,</span><span class="s2">'paper'</span><span class="s0">,</span><span class="s2">'scissors'</span><span class="s1">])</span>
+<span class="s0">if </span><span class="s1">user_input == computer_input :</span>
+    <span class="s1">print(</span><span class="s2">&quot;it's a tie , everybodyb win&quot;</span><span class="s1">)</span>
+<span class="s0">elif </span><span class="s1">user_input==</span><span class="s2">&quot;rock&quot; </span><span class="s0">and </span><span class="s1">computer_input==</span><span class="s2">&quot;paper&quot; </span><span class="s0">or </span><span class="s1">user_input==</span><span class="s2">&quot;paper&quot; </span><span class="s0">and </span><span class="s1">computer_input==</span><span class="s2">&quot;scissors&quot; </span><span class="s0">or </span><span class="s1">user_input==</span><span class="s2">&quot;scissors&quot; </span><span class="s0">and </span><span class="s1">computer_input==</span><span class="s2">&quot;rock&quot; </span><span class="s1">:</span>
+    <span class="s1">print(</span><span class="s2">&quot;unlucky , next time my friend&quot;</span><span class="s1">)</span>
+<span class="s0">elif </span><span class="s1">user_input==</span><span class="s2">&quot;rock&quot; </span><span class="s0">and </span><span class="s1">computer_input==</span><span class="s2">&quot;scissors&quot; </span><span class="s0">or </span><span class="s1">user_input==</span><span class="s2">&quot;paper&quot; </span><span class="s0">and </span><span class="s1">computer_input==</span><span class="s2">&quot;rock&quot; </span><span class="s0">or </span><span class="s1">user_input==</span><span class="s2">&quot;scissors&quot; </span><span class="s0">and </span><span class="s1">computer_input==</span><span class="s2">&quot;paper&quot;</span><span class="s1">:</span>
+    <span class="s1">print(</span><span class="s2">'we have a winner,congratulations'</span><span class="s1">)</span>
+<span class="s0">else </span><span class="s1">:</span>
+    <span class="s1">print(</span><span class="s2">&quot;that not an accepted choice . </span><span class="s0">\n </span><span class="s2">try again from the suggestions&quot;</span><span class="s1">)</span>
+</pre>
+</body>
+</html>
